@@ -3,8 +3,16 @@
 MAIN HEADLINE
 ****************/
 
- header h1 {
 
+header {
+
+margin:-15px;
+
+}
+
+
+ header h1 {
+  display:block;
   font-family: 'Bangers', cursive;
   text-align: center;
   font-size:5.5em;
@@ -21,7 +29,7 @@ MAIN HEADLINE
   font-size:5.5em;
   background-color:#fff;
   color:black;
-  margin:-111px 258px 1px 250px;
+  margin:-111px 258px 20px 250px;
   padding:0 0; 
  
 }
@@ -81,7 +89,6 @@ aside section h4 {
 
 aside section img{
 
-
   padding-bottom: 0px;
   background-color: #fff;
   height:200px;
@@ -98,6 +105,7 @@ aside section img{
 aside section {
 
   background-color:#ECECEC;
+
 
 }
 
@@ -119,14 +127,18 @@ aside section p {
 
 
 
+
+
 header, aside, article {
 
   background-color:#000;
   text-align: center;
   padding:10px;
+  margin:10px 4px;
   border:solid;
   border-color:black;
   padding-bottom: 0px;
+  margin-top: 10px;
 
  
 }
@@ -170,7 +182,7 @@ header img {
 
 section header {
 
-  margin:auto 5px;
+  margin: 10px 0;
   padding-bottom:auto;
   background-color: #ECECEC;
   border-width: 0.9em;
@@ -204,6 +216,8 @@ section h2 {
 
   border:none;
 }
+
+
 
   
 
